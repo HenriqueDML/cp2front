@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contato.css">
+    <title>Contato</title>
+</head>
+<body>
+<header>
+        <nav>
+        <ul>
+                <li><a href="../index.html"><img src="../img/logo.jpeg" alt="logo pousada"></a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="acomodacoes.html">Acomodações</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contato.html">Contato</a></li>
+        </ul>
+        </nav>
+        <h1>Contatos: </h1>
+        <p id="texto">Envie-nos seu pedido de orçamento agora mesmo, espaço exclusivo para família, Pergunte-nos como:</p>
+</header>
+
+<main>
+        <p id="texto">Telefone: (48) 3434-3412 WhatsApp: (48) 3424-3524</p>
+        <p id="texto">Email: contato@recantodapraia.tur.br</p></br>
+        
+        <p id="texto">Faça sua reserva direto no site:</p>
+        
+<fieldset>
+        <form action="contato" method="get">
+                <p>Nome:</p>
+                <legend></legend>
+                <label for=""></label>
+                <input type="text" placeholder="Digite seu nome completo">
+        <p>E-mail:</p>
+                <legend></legend>
+                <label for=""></label>
+                <input type="email" placeholder="Digite seu e-mail">
+
+        <p>Data check-in:</p>
+                <legend></legend>
+                <label for=""></label>
+                <input type="date">
+
+        <p>Data check-out:</p>
+                <legend></legend>
+                <label for=""></label>
+                <input type="date">
+
+        <p>Tipo de quarto:</p>
+                <legend></legend>
+                <label for=""></label>
+                <select name="quarto" id="idquarto">
+                <option value="" selected disabled>Selecione uma acomodação: </option>
+                <option value="retiro">Retiro tempo meu </option>
+                <option value="ferias">Férias a dois</option>
+                <option value="familia">Familia</option>
+                <option value="familiaPlus">Familia Plus</option>
+                </select>
+
+        <p>Número de hospedes:</p>
+                <legend></legend>
+                <label for=""></label>
+                <input type="number" placeholder="Selecione a quantidade de hospedes">
+
+        <p>Observações :</p>
+                <legend></legend>
+                <label for=""></label>
+                <textarea name="obs" id="idobs" placeholder="Deixe seu comentário"></textarea>
+                <div class="container">
+                <button type="submit">Reservar</button>
+                <button type="reset">Limpar</button></div>
+</fieldset>
+        </form>
+</main>
+
+    <footer>
+            <p>© 2024 Pousada Recanto da Praia - BR-101, Km 144, nº 3146 - Ilhota, Itapema - SC, 88220-000 - Telefone: (48) 3434-3412 WhatsApp: (48) 3424-3524 </p>
+    </footer> 
+</body>
+</html>

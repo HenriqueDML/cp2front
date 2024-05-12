@@ -1,0 +1,42 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main > section > img{
+    max-width: 450px;
+    display: flex;
+    margin: 4% auto;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    padding: 30px;
+}
+
+section{
+    max-width: 45%;
+    margin: 1% auto;
+}
+
+h3, p{
+    margin: 4% auto;
+    max-width: 80%;
+    text-align: center;
+}
+
+h3{
+    font-weight: 300;
+    font-size: 1.4rem;
+    padding: 10px;
+    border: 2px dashed #029D90;
+}
+
+p{
+    font-size: 1.1rem;
+}
+
+footer > p{
+    margin: 0;
+}

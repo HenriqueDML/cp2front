@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    padding: 30px;
+}
+
+span{
+    color: #029D90;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+    margin: 4px;
+    padding: 10px 0;
+}
+
+img:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+section{
+    margin: 2%;
+}

@@ -1,0 +1,101 @@
+h1{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.7rem;
+    font-weight: 300;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+p{
+    margin: 0 10%;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    text-align: justify;
+}
+
+.sec1{
+    display: grid;
+    grid-auto-rows: 95px;
+    grid-template-columns: 4fr 3fr;
+    grid-template-areas: 
+    'sec1_h2 sec1_h2'
+    'sec1_p sec1_img'
+    'sec1_p sec1_img'
+    'sec1_p sec1_img'
+    'sec1_p sec1_img';
+    margin: 5% 0;
+}
+
+.sec1_p{
+    grid-area: sec1_p;
+}
+
+.sec1_img{
+    grid-area: sec1_img;
+    margin-right: 5%;
+}
+
+.sec1_img > img{
+    max-width: 85%;
+}
+
+.sec1 > h2{
+    grid-area: sec1_h2;
+    text-align: center;
+}
+
+span{
+    color: #029D90;
+    font-weight: bolder;
+}
+
+.sec2_gifs{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.sec2_gifs > a{
+    max-width: 30%;
+    margin: 3% 10%;
+}
+
+.sec2_gifs > a > img{
+    max-width: 85%;
+    border-radius: 50%;
+}
+
+.sec3{
+    display: grid;
+    grid-auto-rows: 95px;
+    grid-template-columns: 4fr 3fr;
+    grid-template-areas: 
+    'sec3_h2 sec3_h2'
+    'sec3_p sec3_mapa'
+    'sec3_p sec3_mapa'
+    'sec3_p sec3_mapa'
+    'sec3_p sec3_mapa';
+}
+
+.sec3 > h2{
+    grid-area: sec3_h2;
+}
+
+.sec3 > iframe{
+    grid-area: sec3_mapa;
+    max-width: 90%;
+}
+
+.sec3 > p{
+    grid-area: sec3_p;
+}
+
+footer{
+    margin-top: 10%;
+}
